@@ -1,0 +1,8 @@
+streamlit>=1.40
+requests
+pyyaml
+pypdf
+reportlab
+playwright
+pandas
+altair

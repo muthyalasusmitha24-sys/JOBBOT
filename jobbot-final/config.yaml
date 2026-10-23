@@ -1,0 +1,76 @@
+# Default settings (the app sidebar overrides most of these).
+dry_run: true
+max_applications_per_run: 25
+delay_between_applications: [10, 20]
+max_per_company: 2
+min_match_score: 40
+max_required_years: 1
+min_salary_lpa: 0
+allow_remote: true
+allow_unknown_location: false
+countries_terms: [india]
+search_queries:
+  - machine learning engineer
+  - generative ai engineer
+  - ai engineer
+  - data scientist
+  - nlp engineer
+strong_title_keywords:
+  - machine learning
+  - ml engineer
+  - ai engineer
+  - ai/ml
+  - aiml
+  - artificial intelligence
+  - generative ai
+  - gen ai
+  - genai
+  - llm
+  - nlp
+  - natural language
+  - deep learning
+  - data scientist
+  - applied scientist
+  - research engineer
+  - research scientist
+  - computer vision
+  - mlops
+  - prompt engineer
+  - ai research
+  - forward deployed
+  - solutions engineer
+weak_title_keywords:
+  - data analyst
+  - data engineer
+  - python developer
+  - software engineer
+  - software developer
+  - associate engineer
+  - graduate engineer
+  - analyst
+  - research associate
+  - trainee
+exclude_title_words:
+  - senior
+  - sr
+  - lead
+  - principal
+  - staff
+  - manager
+  - director
+  - head
+  - vp
+  - architect
+  - consultant
+  - sales
+  - marketing
+  - recruiter
+  - intern
+candidate: {}
+custom_answers:
+  - match: "how did you hear"
+    answer: "Company website"
+llm:
+  provider: gemini
+  model: gemini-2.5-flash
+  groq_model: llama-3.3-70b-versatile
